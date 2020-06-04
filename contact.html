@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-dark bg-info text-center ">
+        <!-- Navbar content -->
+    
+        <div class="container">
+          <div class="col-lg-4">
+            <img src="./images/coollogo_com-1292733.png" width="100%" alt="">
+          </div>
+          <div class="col-lg-8">
+    
+            <form class="form-inline">
+              <input class="form-control mr-sm-2 ml-auto" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn  btn-outline-warning my-2 my-sm-0 bg- text-black" type="submit">Search</button>
+            </form>
+          </div>
+    
+        </div>
+    
+      </nav>
+
+
+      <!--nav start-->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-info ">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav text-center">
+        <li class="nav-item active  ">
+          <a class="nav-link text-white pl-5" href="index.html">HOME <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link  text-white pl-5" href="men.html">MEN <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link text-white pl-5" href="woment.html">WOMEN <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link  text-white pl-5" href="about.html">ABOUT<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link  text-white pl-5" href="contact.html">CONTACT<span class="sr-only">(current)</span></a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!--nav end-->
+
+
+
+    <!--Section: Contact v.2-->
+<section class=" container mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>korangi no 2 main market shope no 31</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+3478770714</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>luckyshoes@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+
+
+<!--fotter section start-->
+
+
+<fotter class="fotter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+
+          <h5 class="jk">ABOUT LUCKYSHOES</h5>
+         
+            <P class="">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</P>
+            
+        </div>
+        <div class="col-lg-3 col-sm-6">
+
+          <h5 class="jk">CUSTOMER CARE</h5>
+         
+         <p >CONTACT</p> 
+         <p >RETURNS/EXCHANGE</p>
+         <p >GIFT VOUCHER</p>
+         <p >WISHLIST</p>  
+         <p >SPECIAL</p>  
+         <p >CUSTOMER SERVICES</p>  
+         <p >SITE MAPS</p>
+
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+
+          <h5 class="jk">INFORMATION</h5>
+         
+         <p >ABOUT US</p> 
+         <p >DELIVERY INFORMATION</p>
+         <p >PRIVACY POLICY</p>
+         <p >SUPPORT</p>  
+         <p >ORDER TRACKING</p>  
+         
+
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+
+          <h5 class="jk">CONTACT INFORMATION</h5>
+         
+         <p >korangi no 2 main market shope no 31</p> 
+         <p >+3478770714</p>
+         <p >luckyshoes@gmail.com</p>
+         
+         
+
+        </div>
+      </div>
+    </div>
+  </fotter>
+
+  <!--fotter section end-->
+
+<script src="./js/jq.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
